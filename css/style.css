@@ -13,14 +13,8 @@
 
 .home-bg {
   background-image: url("../Data/photo/image 1.png");
-  background-size: 100%;
-  width: 1440px;
-  height: 618px;
+  background-size: cover;
   background-repeat: no-repeat;
-}
-
-.p {
-  padding: 20px;
 }
 
 @media screen and (max-width: 480px) {
@@ -35,7 +29,7 @@
     width: 100%;
     height: auto;
     background-image: url("../Data/photo/image 1.png");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
   }
 }
@@ -64,11 +58,12 @@
 
 .about-page-bg {
   background-image: url("../Data/photo/image 1.png");
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
 .about-page-2 {
-  margin-top: -210px !important;
+  margin-top: -10px !important;
 }
 
 .about-text {
@@ -81,9 +76,7 @@
 
 @media screen and (max-width: 480px) {
   .about-page-bg {
-    width: 100%;
-    height: 100% !important;
-    background-size: 100%;
+    background-size: cover;
     margin-top: 160px;
   }
 
@@ -92,7 +85,7 @@
   }
 
   .about-page-2 {
-    margin-top: -600px !important;
+    margin-top: -67px !important;
   }
 
   .about-middle-text {

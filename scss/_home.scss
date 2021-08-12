@@ -14,14 +14,12 @@
 }
 .home-bg{
     background-image: url("../Data/photo/image 1.png");
-    background-size: 100%;
-  width: 1440px;
-    height: 618px;
+    background-size: cover;
+      // width: 1440px;
+      //   height: 618px;
     background-repeat: no-repeat;
 }
-.p{
-    padding: 20px;
-}
+
 @media screen and (max-width:480px){
   .home-text{
     color: bisque!important;
@@ -33,17 +31,12 @@
     width: 100%;
     height: auto;
     background-image: url('../Data/photo/image 1.png');
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
   }
 }
 
-@media screen and (max-width: 780px) {
 
-}
-@media screen and (max-width: 1080px) {
-    
-}
 .what-we-do{
   background-image: url("../Data/photo/bg-2.svg");
 }
